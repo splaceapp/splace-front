@@ -3,20 +3,40 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto';
+  color: #333333;
 }
-
-
 
 .logo-wrap {
   text-align: center;
   width: 100%;
+  position: relative;
+  width: 281px;
+  margin: 0 auto;
+
+  img {
+    position: relative;
+    z-index: 10;
+  }
+
+
+//  &:after {
+//    content: "";
+//    display: block;
+//    top: -10px;
+//    left: 30px;
+//    background: transparent url("../img/arrow.png");
+//    width: 223px;
+//    height: 733px;
+//    position: absolute;
+//    z-index: 0;
+//  }
 }
 
 .slogan-wrap {
   text-align: center;
   font-size: 32px;
   color: #0093b5;
-  font-family: 'Roboto';
   font-weight: 200;
   position: relative;
 
@@ -34,3 +54,37 @@ html, body {
     -webkit-animation-timing-function: linear;
   }
 }
+
+.section {
+
+  p {
+    width: 600px;
+    font-size: 20px;
+    background: #ffffff;
+    font-weight: 100;
+    margin: 0 50px;
+    line-height: 30px;
+  }
+
+}
+
+.context-wrap {
+  p {
+    float: right;
+  }
+}
+
+.fund-wrap {
+  p {
+    float: right;
+  }
+}
+
+#section0 {
+//  background: transparent url("../img/background.jpg") center center no-repeat;
+//  background-size: cover;
+//  overflow: hidden;
+}
+
+
+
