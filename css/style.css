@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+.logo-wrap {
+  text-align: center;
+  width: 100%;
+}
+.slogan-wrap {
+  text-align: center;
+  font-size: 32px;
+  color: #0093b5;
+  font-family: 'Roboto';
+  font-weight: 200;
+  position: relative;
+}
+.slogan-wrap a {
+  display: inline-block;
+  color: #f26523;
+  font-weight: 300;
+  position: relative;
+  animation: shake .7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: shake .7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
